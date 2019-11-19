@@ -7,6 +7,8 @@
 
 This repo contains the code for an AWS Lambda written in python to take data feeds obtained from NJ Transit. The resulting output will be the soonest departure time for the nearest origin station with the ETA which is also provided by NJ Transit.
 
+* It relies on the data feeds for bus and rail schedules which are not provided here due to their size 
+
 ### Example Inputs
 
 The lambda endpoint will accept the following inputs as url parameters:

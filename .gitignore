@@ -19,3 +19,5 @@ var/
 
 # Serverless directories
 .serverless
+stop_times_bus.txt
+stop_times_rail.txt
