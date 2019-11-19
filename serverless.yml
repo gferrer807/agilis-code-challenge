@@ -1,0 +1,13 @@
+service: agilisChallenge
+
+provider:
+  name: aws
+  runtime: python3.6
+
+functions:
+  agilis:
+    handler: handler.codingChallenge
+    events:
+      - http:
+          path: agilis/coding2
+          method: get
